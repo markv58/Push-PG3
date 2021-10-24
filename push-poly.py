@@ -47,8 +47,8 @@ class Controller(udi_interface.Node):
         self.user_key = 'none'
         self.d_read = False
 	
-	self.Parameters = Custom(polyglot, 'customparams')
-
+        self.Parameters = Custom(polyglot, 'customparams')
+        
         polyglot.subscribe(polyglot.START, self.start, address)
 	polyglot.subscribe(polyglot.STOP, self.stop)
         polyglot.subscribe(polyglot.CUSTOMPARAMS, self.parameterHandler)
