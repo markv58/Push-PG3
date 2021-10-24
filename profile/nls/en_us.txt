@@ -1,0 +1,38 @@
+# controller
+ND-controller-NAME = PushOver Controller
+ND-controller-ICON = Output
+CMD-ctl-UPDATE_PROFILE-NAME = Update Profile
+CMD-ctl-REMOVE_NOTICES_ALL-NAME = Remove Notices
+ST-ctl-ST-NAME = NodeServer Online
+
+# thingnodetype
+ND-thingnodetype-NAME = Thing Node
+ND-thingnodetype-ICON = GenericCtl
+CMD-thingnode-ACTIONS-NAME = Message
+
+ACTION-0 = Blank
+ACTION-1 = On
+ACTION-2 = Off
+ACTION-3 = Light on
+ACTION-4 = Light off
+ACTION-5 = Open
+ACTION-6 = Closed
+ACTION-7 = Locked
+ACTION-8 = Unlocked
+ACTION-9 = Lock jammed
+ACTION-10 = Motion detected
+ACTION-11 = Water leak
+ACTION-12 = Rang
+ACTION-13 = At home
+ACTION-14 = Away
+ACTION-15 = Offline
+ACTION-16 = Low battery
+ACTION-17 = Armed
+ACTION-18 = Disarmed
+ACTION-19 = Triggered
+ACTION-20 = Don't forget!
+ACTION-21 = WARNING
+ACTION-22 = EMERGENCY
+ACTION-23 = Heat warning
+ACTION-24 = Cold warning
+ACTION-25 = Reset

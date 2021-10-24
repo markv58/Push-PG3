@@ -1,0 +1,36 @@
+{
+    "name": "Push",
+    "docs": "https://github.com/UniversalDesignsInc-PG3/UDI-Push",
+    "type": "python3",
+    "executable": "push-poly.py",
+    "install": "install.sh",
+    "install_cloud": "install_cloud.sh",
+    "description": "Push Node Server",
+    "notice": "Use at your own risk",
+    "shortPoll": "120",
+    "longPoll": "240",
+	"logLevel": "INFO",
+	"customParams" : {
+		"api_key": "",
+		"user_key": ""
+	},
+    "credits": [
+        {
+            "title": "Push",
+            "author": "Mark Vittes (markv58)",
+            "version": "2.0.0",
+            "date": "October 18, 2021",
+            "source": "https://github.com/UniversalDesignsInc-PG3/UDI-Push",
+            "license": "https://github.com/UniversalDesignsInc-PG3/UDI-Push/blob/master/LICENSE"
+        }
+    ],
+	"store": {
+		"developer": "bpaauwe@bobsplace.com",
+		"purchaseOptions": [
+			{
+				"isPerpetual": true,
+				"price": 0
+			}
+		]
+	}
+}
