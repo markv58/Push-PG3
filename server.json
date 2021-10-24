@@ -18,18 +18,18 @@
         {
             "title": "Push",
             "author": "Mark Vittes (markv58)",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "date": "October 18, 2021",
             "source": "https://github.com/UniversalDesignsInc-PG3/UDI-Push",
             "license": "https://github.com/UniversalDesignsInc-PG3/UDI-Push/blob/master/LICENSE"
         }
     ],
 	"store": {
-		"developer": "bpaauwe@bobsplace.com",
+		"developer": "markv58git@gmail.com",
 		"purchaseOptions": [
 			{
 				"isPerpetual": true,
-				"price": 0
+				"price": 12
 			}
 		]
 	}
