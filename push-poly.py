@@ -116,8 +116,8 @@ class thingnode(udi_interface.Node):
             conn = http.client.HTTPSConnection("api.pushover.net:443")
             conn.request("POST", "/1/messages.json",
                     urllib.parse.urlencode({
-                        "token": self.parent.api_key,
-                        "user": self.parent.user_key,
+                        "token": self.primary.api_key,
+                        "user": self.primary.user_key,
                         "title": self.title,
                         "message": ACTION[_message],
                     }), { "Content-type": "application/x-www-form-urlencoded" })
