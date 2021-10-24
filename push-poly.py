@@ -52,7 +52,7 @@ class Controller(udi_interface.Node):
         polyglot.subscribe(polyglot.START, self.start, address)
         polyglot.subscribe(polyglot.STOP, self.stop)
         polyglot.subscribe(polyglot.CUSTOMPARAMS, self.parameterHandler)
-        polyglot.subscribe(polyglot.ADDNODEDONE, self.node_queue)
+        #polyglot.subscribe(polyglot.ADDNODEDONE, self.node_queue)
 	
 	
         polyglot.ready()
